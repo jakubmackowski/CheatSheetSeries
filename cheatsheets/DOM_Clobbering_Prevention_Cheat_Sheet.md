@@ -150,6 +150,8 @@ When initializing varibles, always use a variable declarator like `var`, `let` o
 
 Avoid using objects like `document` and `window` for storing global variables, because they can be easily manipulated. (see, e.g., [here](https://domclob.xyz/domc_wiki/indicators/patterns.html#do-not-use-document-for-global-variables)).
 
+### \#6.1: Do Not Trust Document Built-in APIs Before Validation
+
 ### \#7: Do Not Trust Document Built-in APIs Before Validation
 
 Document properties, including built-in ones, are always overshadowed by DOM Clobbering, even right after they are assigned a value.
