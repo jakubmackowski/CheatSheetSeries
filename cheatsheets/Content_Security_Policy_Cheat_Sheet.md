@@ -8,6 +8,8 @@ This article brings forth a way to integrate the __defense in depth__ concept to
 
 The increase in XSS (Cross-Site Scripting), clickjacking, and cross-site leak vulnerabilities demands a more __defense in depth__ security approach.
 
+vffgs
+
 ### Defense against XSS
 
 CSP defends against XSS attacks in the following ways:
